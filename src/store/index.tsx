@@ -1,11 +1,11 @@
 import { routerMiddleware } from 'connected-react-router';
-import { createBrowserHistory } from 'history';
+import { createHashHistory } from 'history';
 import { applyMiddleware, compose, createStore } from 'redux';
 import logger from 'redux-logger';
 import reducers from '../reducers';
 
 // router
-export const history = createBrowserHistory();
+export const history = createHashHistory();
 const routerMiddlewareWithHistory = routerMiddleware(history);
 
 // Store にマウントする

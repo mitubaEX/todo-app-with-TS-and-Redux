@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { connect } from 'react-redux';
 import Todo from '../response_types/Todo';
 
 interface Props {
@@ -9,4 +10,8 @@ const TodoList = (props: Props) => {
   return <div>hello</div>;
 };
 
-export default TodoList;
+const mapStateToProps = (state: any) => {
+  return {};
+};
+
+export default connect(mapStateToProps)(TodoList);
