@@ -39,7 +39,7 @@
     "@types/react-redux": "^7.0.9",
     "@types/react-router-dom": "^4.3.3",
     "@types/redux-logger": "^3.0.7",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "connected-react-router": "^6.4.0",
     "husky": ">=1",
     "json-server": "^0.15.0",
